@@ -1,0 +1,72 @@
+*{
+    background-color:#97a9c7f4;;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Lobster', cursive; 
+}
+.A{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,cursive;
+
+}
+.result{
+    font-size: 2rem;
+}
+.life{
+    font-size: 2.2rem;
+    ;
+}
+
+#inNum{
+    width: 15%;
+}
+#inNum , #check{
+    font-size: 3rem;
+    box-shadow: 3%;
+    border-color: black;
+    background-color: #abaec1f4;
+}
+
+button{
+    color: rgb(52, 2, 92);
+    font-size: 250%;
+    display: inline-block;
+    margin: 2%;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+button:hover {
+    color: rgb(26, 35, 3);
+  }
+button:active {
+    box-shadow: 0 5px rgb(19, 60, 4) ;
+    transform: translateY(4px);
+}
+
+
+footer {
+    margin-top: 5%;
+    color: black;
+}
+
+
+
+footer a {
+    font-size: 1.5rem;
+    color: maroon;
+}
+
+/* rgba(170, 184, 206, 0.708); */

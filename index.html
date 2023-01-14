@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Guess The Number</h1>
+
+        <div class="A">
+            Lets Play 🚩
+        </div>
+        <div class="result">
+            Enter number between <strong>0 & 100</strong>
+        </div>
+        <div class="life">
+            YOU ARE LEFT WITH &#9829 x <strong id="heart">10</strong>    
+        </div>
+        <div class="entery">
+            <div>
+            <input id="inNum" value="" type="text"  >
+
+            <button id="check" onclick="checkNum()">
+                <strong>
+                    🚀Check!
+                </strong>
+            </button>
+        </div>
+        <button id="newNum" onclick="changeNum()">
+                <strong>😖Try for New Number</strong>
+        </button>
+        <button id="showAns" onclick="showNum()">
+                <strong>🙏 Show The Number</strong>
+        </button>
+        </div>
+    </div>
+</body>
+
+
+<footer>
+    <p>This Game is Made By <a href="https://www.linkedin.com/in/mayank-yadav-0803b2200">MAYANK</a></p>
+    
+    <script src="index.js" charset="UTF-8"></script>
+</footer>
+
+</html>
