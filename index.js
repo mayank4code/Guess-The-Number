@@ -45,7 +45,7 @@ function checkNum(){
 
 
 function showNum(){
-    heartCount=5;
+    heartCount=10;
     document.querySelector(".A").innerHTML="<strong>Game and Hope Lost🥵</strong>";
     document.querySelector(".result").innerHTML="<strong>The Number is</strong>";
     document.querySelector(".life").innerHTML=num;
@@ -54,6 +54,7 @@ function showNum(){
 
 
 function changeNum(){
+    heartCount=10;
     num = Math.floor(((Math.random())*100)+1);
     document.querySelector(".A").innerHTML="<strong>🚩New Game🚩</strong>";
     document.querySelector(".result").innerHTML="Enter number between <strong>0 & 100</strong>";
